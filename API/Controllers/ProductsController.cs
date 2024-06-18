@@ -7,6 +7,7 @@ using API.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
+//from API basics section(2)
 namespace API.Controllers
 {
     [ApiController]

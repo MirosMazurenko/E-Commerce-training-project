@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using API.Entities;
 
+//from API basics section(2)
 namespace API.Data
 {
     public static class DbInitializer

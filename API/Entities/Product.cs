@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+//from API basics section(2)
 namespace API.Entities
 {
     public class Product

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using API.Entities;
 
-
+//from API basics section(2)
 namespace API.Data;
 
 public class StoreContext : DbContext
