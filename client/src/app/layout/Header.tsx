@@ -49,11 +49,22 @@ export default function Header({ darkMode, handleThemeChange }: Props) {
                     {midLinks.map(({ title, path }) => (
                         <ListItem
                             component={NavLink}
-                            to={path} key={path}
+                            to={path}
+                            key={path}
                             sx={navStyles}
                         >
                             {title.toUpperCase()}
-                        </ListItem>))}
+                        </ListItem>
+                    ))}
+                    {user && !user.roles?.includes('Member') &&
+                        <ListItem
+                            component={NavLink}
+                            to="/inventory"
+                            sx={navStyles}
+                        >
+                            INVENTORY
+                        </ListItem>
+                    }
                 </List>
 
                 <Box display="flex" alignItems="center">
